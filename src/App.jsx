@@ -1,12 +1,12 @@
 const App= () => {
   return ( 
-  <nav>
+  <nav className="nav-bar flex flex-row w-screen h-auto justify-center align-center ">
     <div>
-      <img src="/assets/coffee-logo.jpg" alt="logo" />
+      <img className="img-container " src="/assets/coffee-logo.jpg" alt="logo" />
     </div>
     <ul>
       <li>
-        <a href="#">Home</a>
+        <a className=" " href="#">Home</a>
       </li>
       <li>
         <a href="#">Contact</a>
@@ -19,6 +19,7 @@ const App= () => {
       </li>
     </ul>
   </nav>
+
 );
 }
 
